@@ -13,3 +13,8 @@ from pandas.plotting import scatter_matrix
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_curve, auc
+
+import os
+print(os.listdir("../input"))
+
+new_data=pd.read_csv('../input/ML_Parkinson.csv')
